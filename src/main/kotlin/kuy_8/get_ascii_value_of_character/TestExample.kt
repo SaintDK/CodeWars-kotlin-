@@ -1,6 +1,6 @@
 package kuy_8.get_ascii_value_of_character
 
-import kotlin.test.assertEquals
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 class TestExample {
