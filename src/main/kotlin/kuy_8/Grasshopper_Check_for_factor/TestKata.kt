@@ -3,6 +3,7 @@ package kuy_8.Grasshopper_Check_for_factor
 import kotlin.test.assertEquals
 import org.junit.Test
 
+
 class TestKata {
     @Test
     fun basicTests() {
