@@ -1,5 +1,6 @@
 package kuy_7.Easy_Line
 
+
 import org.junit.Assert.*
 import java.math.BigInteger
 import org.junit.Test
