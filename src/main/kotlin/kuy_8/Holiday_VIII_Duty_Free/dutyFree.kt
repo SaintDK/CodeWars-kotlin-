@@ -6,7 +6,7 @@ import org.junit.Test
 class TestExample {
     @Test
     fun `Basic tests`() {
-//        assertEquals(166, dutyFree(12, 50, 1000))
+        assertEquals(166, dutyFree(12, 50, 1000))
         assertEquals(294, dutyFree(17, 10, 500))
         assertEquals(357, dutyFree(24, 35, 3000))
         assertEquals(60, dutyFree(377, 40, 9048))
