@@ -1,7 +1,6 @@
 package kuy_8.Multiply
 
 import org.junit.Test
-
 import org.junit.Assert.assertEquals
 
 internal class Multiplication_Test {

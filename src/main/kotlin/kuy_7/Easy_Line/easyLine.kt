@@ -1,5 +1,7 @@
 package kuy_7.Easy_Line
 
+import java.math.BigInteger
+
 fun choose(n: Int, k: Int): BigInteger = when {
     n == 0 -> 0.toBigInteger()
     k == 0 -> 1.toBigInteger()
