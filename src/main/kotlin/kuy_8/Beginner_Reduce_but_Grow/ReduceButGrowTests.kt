@@ -3,6 +3,7 @@ package kuy_8.Beginner_Reduce_but_Grow
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
+
 class ReduceButGrowTests {
 
     @Test
