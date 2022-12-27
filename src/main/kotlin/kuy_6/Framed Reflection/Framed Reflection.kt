@@ -1,5 +1,6 @@
 package kuy_6
 
+
 fun mirror(text: String): String {
     val words = text.split(' ')
     val stars = "*".repeat(words.maxBy{ it.length }!!.length + 4)
