@@ -1,7 +1,7 @@
 package kuy_6.`Reversing a Process`
 
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class decodTest {
     fun testingDecode(r: String, expected: String) {

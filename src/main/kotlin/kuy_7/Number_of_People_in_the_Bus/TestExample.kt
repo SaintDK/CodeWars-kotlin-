@@ -1,6 +1,6 @@
 package kuy_7.Number_of_People_in_the_Bus
 
-import kotlin.test.assertEquals
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 class TestExample {
