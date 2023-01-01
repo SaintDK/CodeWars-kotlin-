@@ -8,4 +8,8 @@ class TestExample {
     fun multiply() {
         assertEquals(4, doubleInteger(2), "Nope!")
     }
+
+    private fun assertEquals(i: Int, doubleInteger: Int, s: String) {
+
+    }
 }
