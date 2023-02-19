@@ -1,1 +1,1 @@
-Solving tests on CodeWars for learning algorithms
+Sоlving tests on CodeWars for learning algorithms
