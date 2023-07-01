@@ -9,3 +9,5 @@ fun addLetters(arr: List<Char>): Char {
 
 
 }
+
+//fun addLetters(arr: List<Char>) = 'z' - arr.sumBy { 'z' - it } % 26
