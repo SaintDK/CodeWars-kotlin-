@@ -4,8 +4,9 @@ package kuy_8.Beginner_Reduce_but_Grow
 //    return arr.reduce {a, b -> a * b}
 //}
 
-fun grow(arr: IntArray): Int {
-    var result = 1
-    arr.forEach {result *= it}
-    return result
-}
+fun grow(arr: IntArray): Int = arr.reduce { a, b -> a * b }
+
+//    var result = 1
+//    arr.forEach {result *= it}
+//    return result
+//}
