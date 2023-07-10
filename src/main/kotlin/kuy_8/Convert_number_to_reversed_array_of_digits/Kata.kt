@@ -5,3 +5,7 @@ object Kata {
         return n.toString().map(Character::getNumericValue).toIntArray().reversedArray()
     }
 }
+
+//object Kata {
+//    fun digitize(n: Long) = "$n".reversed().map { "$it".toInt() }.toIntArray()
+//}
