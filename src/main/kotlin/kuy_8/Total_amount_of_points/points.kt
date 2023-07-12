@@ -7,3 +7,7 @@ fun points(games: List<String>) = games.sumBy {
         else -> 0
     }
 }
+
+//fun points(games: List<String>) = games.sumBy {
+//    val x = it[0]; val y = it[2]; if (x > y) 3 else if (x == y) 1 else 0
+//}
