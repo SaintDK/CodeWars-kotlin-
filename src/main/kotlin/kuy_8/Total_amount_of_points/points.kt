@@ -11,3 +11,9 @@ fun points(games: List<String>) = games.sumBy {
 //fun points(games: List<String>) = games.sumBy {
 //    val x = it[0]; val y = it[2]; if (x > y) 3 else if (x == y) 1 else 0
 //}
+
+//fun points(games: List<String>): Int =
+//    games.map {
+//        if(it.first().digitToInt() > it.last().digitToInt())
+//        { 3 }
+//        else if(it.first().digitToInt() == it.last().digitToInt()) { 1 } else { 0 } }.sum()
