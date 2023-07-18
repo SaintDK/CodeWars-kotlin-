@@ -5,3 +5,5 @@ fun printerError(s: String): String {
     val length = s.length
     return "$errors/$length"
 }
+
+//fun printerError(s: String) = "${s.count { it !in 'a'..'m' }}/${s.length}"
