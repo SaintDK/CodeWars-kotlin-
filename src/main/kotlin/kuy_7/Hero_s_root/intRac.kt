@@ -8,3 +8,8 @@ fun intRac(n:Long, guess:Long):Long {
     
     return intRac(n, newGuess)+1
 }
+//fun intRac(n: Long, guess: Long): Long {
+//    val newGuess = (guess + n / guess) / 2
+//
+//    return if (guess == newGuess) 1 else intRac(n, newGuess) + 1
+//}
