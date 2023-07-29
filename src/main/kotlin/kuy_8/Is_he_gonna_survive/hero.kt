@@ -4,3 +4,5 @@ fun hero(bullets: Int, dragons: Int) : Boolean {
     if (bullets >= dragons * 2){return true}
     return false;
 }
+
+//fun hero(bullets: Int, dragons: Int) = bullets >= dragons * 2
