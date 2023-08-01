@@ -10,3 +10,6 @@ fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int): Int{
         height -= downSpeed
     }
 }
+
+//fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int) =
+//    kotlin.math.ceil(((desiredHeight - downSpeed).toDouble() / (upSpeed - downSpeed))).toInt().coerceAtLeast(1)
