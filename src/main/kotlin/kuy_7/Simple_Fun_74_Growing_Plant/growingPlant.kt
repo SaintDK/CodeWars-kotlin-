@@ -13,3 +13,27 @@ fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int): Int{
 
 //fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int) =
 //    kotlin.math.ceil(((desiredHeight - downSpeed).toDouble() / (upSpeed - downSpeed))).toInt().coerceAtLeast(1)
+
+//fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int): Int {
+//
+//    var count = 0;
+//    var height = 0;
+//
+//    while (height < desiredHeight) {
+//
+//        height += upSpeed;
+//        count++;
+//
+//        if (height >= desiredHeight) {
+//            break;
+//        }
+//        else {
+//            height -= downSpeed;
+//        }
+//
+//
+//    }
+//
+//
+//    return count;
+//}
