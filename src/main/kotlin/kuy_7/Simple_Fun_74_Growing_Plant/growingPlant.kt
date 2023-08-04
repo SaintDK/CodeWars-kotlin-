@@ -37,3 +37,11 @@ fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int): Int{
 //
 //    return count;
 //}
+
+//fun growingPlant(upSpeed: Int, downSpeed: Int, desiredHeight: Int): Int {
+//    val delta = upSpeed - downSpeed;
+//    val fullCyclesNeeded = (desiredHeight + delta - 1)/delta;
+//    val fullCyclesPlusOneDayNeeded = max(1, (desiredHeight - upSpeed + delta - 1)/delta + 1);
+//
+//    return min(fullCyclesNeeded, fullCyclesPlusOneDayNeeded);
+//}
