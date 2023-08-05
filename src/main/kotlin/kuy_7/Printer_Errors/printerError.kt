@@ -7,3 +7,9 @@ fun printerError(s: String): String {
 }
 
 //fun printerError(s: String) = "${s.count { it !in 'a'..'m' }}/${s.length}"
+
+//fun printerError(s: String): String {
+//    val alphabet = arrayOf<Char>('n','o','p','q','r','s','t','u','v','w','x','y','z')
+//    val left =  s.count { it in alphabet }
+//    return "$left/${s.length}"
+//}
