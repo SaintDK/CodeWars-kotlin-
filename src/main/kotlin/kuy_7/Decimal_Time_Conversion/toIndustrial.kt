@@ -24,3 +24,16 @@ fun toNormal(t: Double): String {
 //    val m = t-t.toInt()
 //    return h.toString() + ":" + (m*60.0).roundToInt().toString().padStart(2,'0')
 //}
+
+//fun toIndustrial(t: Int): Double = (t * 100 / 60.0).roundToInt() / 100.0
+//
+//
+//fun toIndustrial(t: String): Double{
+//    val time = t.split(":").map { it.toInt() }.let { it.first() * 60 + it.last() }
+//    return toIndustrial(time)
+//}
+//
+//fun toNormal(t: Double): String{
+//    val time = (t * 100 * 0.6).roundToInt()
+//    return "${time / 60}:${String.format("%02d", time % 60)}"
+//}
