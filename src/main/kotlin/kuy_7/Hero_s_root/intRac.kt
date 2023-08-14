@@ -13,3 +13,9 @@ fun intRac(n:Long, guess:Long):Long {
 //
 //    return if (guess == newGuess) 1 else intRac(n, newGuess) + 1
 //}
+
+//fun intRac(n:Long, guess:Long) = ((guess + n / guess) / 2).run {
+//    generateSequence(guess to this){it.second to (it.second + n/ it.second) / 2 }
+//        .takeWhile{ it.first != it.second}
+//        .count() + 1L
+//}
