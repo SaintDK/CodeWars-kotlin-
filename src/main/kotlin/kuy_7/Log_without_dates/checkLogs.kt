@@ -15,3 +15,13 @@ fun checkLogs(log: Array<String>): Int =
 //    }
 //    return c
 //}
+
+//fun checkLogs(log: Array<String>): Int {
+//    var prev = "99:99:99"
+//    var days = 0
+//    log.forEach {
+//        if (it <= prev) days++
+//        prev = it
+//    }
+//    return days
+//}
