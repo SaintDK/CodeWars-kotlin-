@@ -25,3 +25,15 @@ fun checkLogs(log: Array<String>): Int =
 //    }
 //    return days
 //}
+
+//fun checkLogs(log: Array<String>): Int {
+//    if (log.isEmpty()) return 0
+//    if (log.size == 1) return 1
+//    var result  = 1
+//    for (i in 1..log.size-1) {
+//        if (log[i] <= log[i-1]) {
+//            result += 1
+//        }
+//    }
+//    return result
+//}
