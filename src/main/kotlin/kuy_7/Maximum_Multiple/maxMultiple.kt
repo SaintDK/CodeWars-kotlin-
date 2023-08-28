@@ -18,3 +18,6 @@ fun maxMultiple(d: Int, b: Int): Int = (b downTo d).first { it % d == 0 }
 //    }
 //    return max
 //}
+
+//fun maxMultiple(d: Int, b: Int): Int =
+//    (b.toFloat() - b.toFloat().mod(d.toFloat())).toInt()
