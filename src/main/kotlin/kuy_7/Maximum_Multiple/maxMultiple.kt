@@ -8,3 +8,13 @@ fun maxMultiple(d: Int, b: Int): Int = (b downTo d).first { it % d == 0 }
 
 //fun maxMultiple(divisor: Int, bound: Int): Int = (bound downTo 0).first { it % divisor == 0 }
 
+//fun maxMultiple(d: Int, b: Int): Int {
+//    var max = 0
+//    for (n in b downTo 1 ) {
+//        if (n % d == 0 ) {
+//            max = n
+//            break
+//        }
+//    }
+//    return max
+//}
