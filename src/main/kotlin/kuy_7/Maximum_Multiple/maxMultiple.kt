@@ -23,3 +23,6 @@ fun maxMultiple(d: Int, b: Int): Int = (b downTo d).first { it % d == 0 }
 //    (b.toFloat() - b.toFloat().mod(d.toFloat())).toInt()
 
 //fun maxMultiple(d: Int, b: Int): Int? = (1..b).filter{it%d == 0 }.maxOrNull()
+
+//tailrec fun maxMultiple(d: Int, b: Int): Int =
+//    if (b % d == 0) b else maxMultiple(d,b-1)
